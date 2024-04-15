@@ -24,7 +24,7 @@ Developed by:NIRMAL.N
 RegisterNumber:212223240107
 */
 ```
-
+```
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import optimize
@@ -115,7 +115,7 @@ def predict(theta,X):
     prob=sigmoid(np.dot(X_train,theta))
     return (prob>=0.5).astype(int)
 np.mean(predict(res.x,X)==y)
-
+```
 ## Output:
 
 ## Array Value of x
